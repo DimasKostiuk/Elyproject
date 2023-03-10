@@ -1,0 +1,16 @@
+.first {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(236, 177, 177);
+    border: none;
+    box-shadow: 2px 2px 5px rgb(71, 66, 66);
+    border-radius: 10px;
+}
+
+.first:active {
+    box-shadow: 1px 1px 3px rgb(32, 31, 31);
+}
+
+.first:hover {
+    background-color: pink;
+}
