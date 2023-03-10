@@ -42,7 +42,9 @@
 
       {%- block main %}
         <div class="main">
-          {% block mainBody %}{% endblock %}
+          {% block mainBody %}
+          {% include 'blocks/main/main.njk' %}
+          {% endblock %}
         </div>
       {% endblock %}
 
